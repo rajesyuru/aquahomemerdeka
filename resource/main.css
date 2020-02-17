@@ -1,0 +1,137 @@
+body {
+    background-color: #F4F4F4;
+    font-family: 'Montserrat', sans-serif;
+    margin: 12px 0px 0px 0px;
+    white-space: nowrap;
+}
+
+.mainheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo {
+    font-weight: bolder;
+    color: #74CDED;
+    background-color: #F4F4F4;
+    font-size: 17px;
+    -webkit-text-stroke: 1px #74CDED;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 18px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: background-color 150ms, color 150ms, -webkit-text-stroke 150ms, border-top-right-radius 150ms, border-top-left-radius 150ms;
+}
+
+.logo:hover {
+    background-color: #74CDED;
+    color: white;
+    -webkit-text-stroke: 1px white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.nav ul {
+    font-size: 13px;
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: #F4F4F4;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: background-color 150ms, border-top-right-radius 150ms, border-top-left-radius 150ms, font-weight 150ms;
+}
+
+ul li.active a {
+    font-weight: bolder;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #74CDED;
+}
+
+.nav ul li a:hover {
+    font-weight: bolder;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #74CDED;
+}
+
+
+
+
+.banner {
+    background-color: #74CDED;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke: 1px white;
+}
+
+.AHS {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    transform: scale(0.9, 0.9);
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.AHS h3 {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.AHS div {
+    background-color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    padding: 40px 20px 40px 20px;
+    box-shadow: 0px 50px 30px rgba(128, 128, 128, 0.5);
+    position: relative;
+    top: 0px;
+    transition: top 300ms, box-shadow 300ms, background-color 300ms, border-color 300ms;
+}
+
+
+.AHS div:hover {
+    background-color: #F4F4F4;
+    border-color: #F4F4F4;
+    position: relative;
+    top: -12px;
+    box-shadow: 0px 62px 40px rgba(128, 128, 128, 0.5);
+}
+
+.AHS a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #1F3F68;
+    background-color: #1F3F68;
+    font-size: 12px;
+    padding: 12px 50px 12px 50px;
+}
+
+.AHS a:active {
+    border-color: #14243a;
+    background-color: #14243a;
+}
